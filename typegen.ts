@@ -77,7 +77,7 @@ logOutput(fromChain);
 
 // process the output to make it work with Deno
 
-import { walk } from "std/fs/mod.ts";
+import { walk } from "https://deno.land/std@0.211.0/fs/mod.ts";
 
 function countSlashes(s: string) {
   let count = 0;
